@@ -32,8 +32,16 @@ cask install sublime-text3
 ## matsukaz/mycask
 tap matsukaz/mycask
 cask install freeplane
-cask install window-wrangler
 
 ## rcmdnk/file
 tap rcmdnk/file
 install brew-file
+
+# Other Homebrew packages
+install autoconf
+install libevent
+install openssl
+install pkg-config
+install rbenv
+install ruby-build
+install tmux
