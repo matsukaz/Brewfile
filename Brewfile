@@ -31,6 +31,10 @@ cask install firefox-ja
 cask install google-chrome-canary
 cask install sublime-text3
 
+## homebrew/versions
+tap homebrew/versions
+install android-ndk-r9d
+
 ## matsukaz/mycask
 tap matsukaz/mycask
 cask install freeplane
@@ -40,8 +44,8 @@ tap rcmdnk/file
 install brew-file
 
 # Other Homebrew packages
-install android-ndk
 install android-sdk
+install ant
 install autoconf
 install libevent
 install openssl
