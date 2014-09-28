@@ -7,6 +7,7 @@ cask install alfred
 cask install android-studio-bundle
 cask install bettertouchtool
 cask install clipmenu
+cask install cyberduck
 cask install dropbox
 cask install hipchat
 cask install iterm2
@@ -29,6 +30,7 @@ cask install xtrafinder
 tap caskroom/versions
 cask install firefox-ja
 cask install google-chrome-canary
+cask install keepassx0
 cask install sublime-text3
 
 ## homebrew/versions
