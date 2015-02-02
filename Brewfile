@@ -63,4 +63,3 @@ install tmux
 # Below applications were installed by Cask,
 but not corresponding casks were found.
 
-#cask  install kindle (!)
