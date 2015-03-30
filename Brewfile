@@ -1,17 +1,14 @@
+
 # tap repositories and their packages
 
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
 cask install alfred
-cask install android-studio-bundle
 cask install bettertouchtool
 cask install clipmenu
 cask install cyberduck
 cask install dropbox
-cask install freeplane
-cask install hipchat
-cask install hockeyapp
 cask install iterm2
 cask install java
 cask install karabiner
@@ -39,14 +36,16 @@ cask install sublime-text3
 tap homebrew/versions
 install android-ndk-r9d
 
-## matsukaz/mycask
-tap matsukaz/mycask
+## peco/peco
+tap peco/peco
+install peco
 
 ## rcmdnk/file
 tap rcmdnk/file
 install brew-file
 
 # Other Homebrew packages
+install --HEAD ccache
 install android-sdk
 install ant
 install autoconf
@@ -56,10 +55,12 @@ install libevent
 install mysql
 install openssl
 install pkg-config
+install postgres
+install postgresql
 install rbenv
 install ruby-build
 install tmux
+install tree
 
-# Below applications were installed by Cask,
+# Other commands
 but not corresponding casks were found.
-
