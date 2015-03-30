@@ -34,7 +34,7 @@ cask install sublime-text3
 
 ## homebrew/versions
 tap homebrew/versions
-install android-ndk-r9d
+install android-ndk-r10d
 
 ## peco/peco
 tap peco/peco
