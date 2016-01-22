@@ -112,11 +112,6 @@ brew vim
 brew xctool
 brew xz
 
-# Below applications were installed by Cask,
-# but do not have corresponding casks.
-
-#cask keepassx0 (!)
-
 # App Store applications
 appstore Dash
 appstore Display Menu
