@@ -1,7 +1,6 @@
 
 # tap repositories and their packages
 
-## caskroom/cask
 tap caskroom/cask
 cask 0xed
 cask alfred
@@ -40,31 +39,24 @@ cask xmind
 cask xquartz
 cask xtrafinder
 
-## caskroom/versions
 tap caskroom/versions
 cask google-chrome-canary
 cask java6
 cask sublime-text3
 
-## homebrew/dupes
 tap homebrew/dupes
 brew libiconv
 
-## homebrew/versions
 tap homebrew/versions
 
-## matsukaz/mycask
 tap matsukaz/mycask
 
-## peco/peco
 tap peco/peco
 brew peco
 
-## rcmdnk/file
 tap rcmdnk/file
 brew brew-file
 
-## tldr-pages/tldr
 tap tldr-pages/tldr
 
 # Other Homebrew packages
@@ -111,6 +103,11 @@ brew uncrustify
 brew vim
 brew xctool
 brew xz
+
+# Below applications were installed by Cask,
+# but do not have corresponding casks.
+
+#cask keepassx0 (!)
 
 # App Store applications
 appstore Dash
