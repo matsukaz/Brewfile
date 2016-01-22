@@ -43,7 +43,6 @@ cask install sublime-text3
 
 ## homebrew/versions
 tap homebrew/versions
-install android-ndk-r10c
 install android-ndk-r10d
 
 ## peco/peco
@@ -59,8 +58,9 @@ tap tldr-pages/tldr
 install tldr
 
 # Other Homebrew packages
-install --HEAD ccache
+install ccache
 install android-sdk
+install ansible
 install ant
 install autoconf
 install awscli
@@ -72,8 +72,6 @@ install libevent
 install mysql
 install openssl
 install pkg-config
-install postgres
-install postgresql
 install rbenv
 install ruby-build
 install tmux
