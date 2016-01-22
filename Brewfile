@@ -84,5 +84,3 @@ cask install fluid
 cask install java
 cask install xquartz
 
-# Other commands
-but not corresponding casks were found.
