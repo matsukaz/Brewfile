@@ -4,11 +4,9 @@
 tap caskroom/cask
 cask 0xed
 cask alfred
-cask android-studio
 cask atom
 cask bartender
 cask bettertouchtool
-cask clipmenu
 cask cyberduck
 cask dropbox
 cask firefox
@@ -18,6 +16,7 @@ cask hipchat
 cask iterm2
 cask java
 cask karabiner
+cask keepassx
 cask macdown
 cask mou
 cask mysqlworkbench
@@ -42,7 +41,9 @@ cask xtrafinder
 tap caskroom/versions
 cask google-chrome-canary
 cask java6
-cask sublime-text3
+
+tap cloudfoundry/tap
+brew cf-cli
 
 tap homebrew/dupes
 brew libiconv
@@ -57,8 +58,6 @@ brew peco
 tap rcmdnk/file
 brew brew-file
 
-tap tldr-pages/tldr
-
 # Other Homebrew packages
 brew android-ndk
 brew android-sdk
@@ -70,14 +69,15 @@ brew automake
 brew awscli
 brew bash-completion
 brew binutils
+brew carthage
 brew ccache
 brew curl
 brew dialog
-brew docker
-brew docker-compose
-brew docker-machine
 brew fig
 brew freetype
+brew git-lfs
+brew gradle
+brew graphviz
 brew imagemagick
 brew jpeg
 brew libevent
@@ -92,17 +92,21 @@ brew maven
 brew mysql
 brew openssl
 brew pkg-config
+brew protobuf --c++11
+brew qt5
 brew rbenv
 brew readline
 brew redis
 brew ruby-build
-brew tldr
 brew tmux
 brew tree
 brew uncrustify
 brew vim
 brew xctool
 brew xz
+
+# Cask applications
+cask sublime-text3
 
 # App Store applications
 appstore Dash
