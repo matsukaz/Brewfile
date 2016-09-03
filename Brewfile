@@ -62,26 +62,45 @@ brew glib
 brew gmp
 brew gnutls
 brew gradle
+brew heroku
+brew lesspipe
 brew libffi
 brew libgcrypt
 brew libgpg-error
 brew libtasn1
+brew libxml2
+brew libxslt
+brew libyaml
 brew mas
 brew maven
+brew mysql
 brew nettle
 brew openssl
 brew pcre
 brew peco
+brew perl
 brew pkg-config
+brew postgresql
+brew protobuf --c++11
+brew python
+brew qt5
 brew rbenv
+brew readline
+brew redis
+brew ruby
 brew ruby-build
+brew sqlite
 brew tree
+brew vim
 brew wireshark
 brew zsh --without-etcdir
 brew zsh-completions
 
 tap homebrew/dupes
 brew libiconv
+
+tap homebrew/versions
+brew android-ndk-r10e
 
 tap rcmdnk/file
 brew brew-file
