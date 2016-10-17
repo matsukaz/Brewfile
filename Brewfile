@@ -2,6 +2,75 @@
 # tap repositories and their packages
 
 tap caskroom/cask
+
+tap homebrew/core
+
+tap homebrew/dupes
+
+tap homebrew/versions
+
+tap rcmdnk/file
+
+# Other Homebrew packages
+brew android-ndk
+brew android-ndk-r10e
+brew android-sdk
+brew ant
+brew autoconf
+brew awscli
+brew bash-completion
+brew brew-file
+brew c-ares
+brew ccache
+brew coreutils
+brew dbus
+brew dex2jar
+brew gdbm
+brew geoip
+brew gettext
+brew git
+brew git-lfs
+brew glib
+brew gmp
+brew gnutls
+brew gradle
+brew heroku
+brew lesspipe
+brew libffi
+brew libgcrypt
+brew libgpg-error
+brew libiconv
+brew libtasn1
+brew libxml2
+brew libxslt
+brew libyaml
+brew mas
+brew maven
+brew mysql
+brew nettle
+brew openssl
+brew pcre
+brew peco
+brew perl
+brew pidcat
+brew pkg-config
+brew postgresql
+brew protobuf --c++11
+brew python
+brew qt5
+brew rbenv
+brew readline
+brew redis
+brew ruby
+brew ruby-build
+brew sqlite
+brew tree
+brew vim
+brew wireshark
+brew zsh --without-etcdir
+brew zsh-completions
+
+# Cask applications
 cask 0xed
 cask alfred
 cask android-studio
@@ -23,11 +92,11 @@ cask java
 cask jd-gui
 cask karabiner
 cask keepassx
+cask libreoffice
 cask macdown
 cask mongochef
 cask mysqlworkbench
 cask omnidisksweeper
-cask openoffice
 cask postman
 cask rdm
 cask sequel-pro
@@ -40,70 +109,6 @@ cask virtualbox
 cask xmind
 cask xquartz
 cask xtrafinder
-
-tap homebrew/core
-brew android-ndk
-brew android-sdk
-brew ant
-brew autoconf
-brew awscli
-brew bash-completion
-brew c-ares
-brew ccache
-brew coreutils
-brew dbus
-brew dex2jar
-brew gdbm
-brew geoip
-brew gettext
-brew git
-brew git-lfs
-brew glib
-brew gmp
-brew gnutls
-brew gradle
-brew heroku
-brew lesspipe
-brew libffi
-brew libgcrypt
-brew libgpg-error
-brew libtasn1
-brew libxml2
-brew libxslt
-brew libyaml
-brew mas
-brew maven
-brew mysql
-brew nettle
-brew openssl
-brew pcre
-brew peco
-brew perl
-brew pkg-config
-brew postgresql
-brew protobuf --c++11
-brew python
-brew qt5
-brew rbenv
-brew readline
-brew redis
-brew ruby
-brew ruby-build
-brew sqlite
-brew tree
-brew vim
-brew wireshark
-brew zsh --without-etcdir
-brew zsh-completions
-
-tap homebrew/dupes
-brew libiconv
-
-tap homebrew/versions
-brew android-ndk-r10e
-
-tap rcmdnk/file
-brew brew-file
 
 # App Store applications
 appstore 449589707 Dash
